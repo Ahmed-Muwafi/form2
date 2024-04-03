@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+.background
+{
+   background-image: url(back.avif);
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-content: center; 
+}
+.form
+{
+   border-radius: 2px;
+   width: 300px;
+   height: 65%;
+
+   background-color: rgba(0, 0, 0, 0.2);
+   backdrop-filter: blur(5px);
+ 
+}
+
+.form h2
+{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form .input1
+{
+    display: block;
+    width: 240px;
+    margin: 15px 30px 5px 30px;
+    padding: 7px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.form .input2
+{
+    display: block;
+    width: 240px;
+    margin: 15px 30px 5px 30px;
+    padding: 7px;
+}
+.a1
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: 30px;
+}
+.a1:hover
+{
+    color: black;
+}
+.submit
+{
+    display: block;
+    width: 240px;
+    margin: 15px 30px 5px 30px;
+    padding: 7px;
+    background-color: rgb(6, 53, 124);
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    font-size: 15px;
+}
+.a2
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.a3
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+   background-color: #4064ad;
+    width: 115px;
+    padding: 13px;
+    text-align: center;
+}
+
+.a4{
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #E1306C;
+    width: 115px;
+    padding: 13px;
+    text-align: center;
+}
+
+p{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+.a5
+{
+    text-decoration: none;
+    color: blue;
+}
